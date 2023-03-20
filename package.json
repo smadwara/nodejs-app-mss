@@ -5,7 +5,9 @@
   "main": "app.js",
   "publishConfig": {
     "registry": "http://3.237.233.152:8081/repository/nodejsPRJ/"
-  },
+  }
+  npm login --registry= http://3.237.233.152:8081/repository/nodejsPRJ/
+  ,
   
   "scripts": {
     "server": "http-server -c-1 -p 9999",
